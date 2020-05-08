@@ -1,0 +1,21 @@
+sendcmd 1 DB set SNTP 0 Enable 1
+sendcmd 1 DB set SNTP 0 NtpServer1 216.239.35.0
+sendcmd 1 DB set SNTP 0 sPosixTimeZoneName EST-05:00
+sendcmd 1 DB set SNTP 0 DaylightSavingsUsed 1
+sendcmd 1 DB set SNTP 0 iZoneIndex 7
+
+sendcmd 1 DB set WLANBase 0 CountryCode 13
+sendcmd 1 DB set WLANBase 0 BandWidth 2
+
+sendcmd 1 DB set DHCPSHostCfg 0 DnsServerSource 0
+
+sendcmd 1 DB set VOIPVPCallFeature 0 CallWaitingEnable 1
+sendcmd 1 DB set VOIPVPCallFeature 0 CallHoldFlag 1
+sendcmd 1 DB set VOIPVPCallFeature 0 CallTransfer 1
+sendcmd 1 DB set VOIPVPCallFeature 0 3WayTalkingBySelf 1
+sendcmd 1 DB set VOIPVPCallFeature 0 3WayTalkingBySS 1
+
+sendcmd 1 DB set VoIPVMediaCfg 0 MediaVPri 1
+sendcmd 1 DB set VoIPVMediaCfg 1 MediaVPri 2
+
+sendcmd 1 DB save
