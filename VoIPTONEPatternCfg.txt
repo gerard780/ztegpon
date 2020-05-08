@@ -1,0 +1,51 @@
+sendcmd 1 DB set VoIPTONEPatternCfg 0 Frequency1 480
+sendcmd 1 DB set VoIPTONEPatternCfg 0 Power1 170
+sendcmd 1 DB set VoIPTONEPatternCfg 0 Frequency2 620
+sendcmd 1 DB set VoIPTONEPatternCfg 0 Power2 170
+sendcmd 1 DB set VoIPTONEPatternCfg 0 ToneUp 500
+sendcmd 1 DB set VoIPTONEPatternCfg 0 ToneDown 500
+sendcmd 1 DB set VoIPTONEPatternCfg 0 Duration 1000
+
+sendcmd 1 DB set VoIPTONEPatternCfg 8 Frequency1 350
+sendcmd 1 DB set VoIPTONEPatternCfg 8 Power1 60
+sendcmd 1 DB set VoIPTONEPatternCfg 8 Frequency2 440
+sendcmd 1 DB set VoIPTONEPatternCfg 8 Power2 60
+
+sendcmd 1 DB set VoIPTONEPatternCfg 20 Frequency1 440
+sendcmd 1 DB set VoIPTONEPatternCfg 20 Power1 120
+sendcmd 1 DB set VoIPTONEPatternCfg 20 Frequency2 480
+sendcmd 1 DB set VoIPTONEPatternCfg 20 Power2 120
+sendcmd 1 DB set VoIPTONEPatternCfg 20 ToneUp 2000
+sendcmd 1 DB set VoIPTONEPatternCfg 20 Duration 6000
+
+sendcmd 1 DB set VoIPTONEPatternCfg 52 Frequency1 350
+sendcmd 1 DB set VoIPTONEPatternCfg 52 Frequency2 440
+sendcmd 1 DB set VoIPTONEPatternCfg 52 Power2 100
+sendcmd 1 DB set VoIPTONEPatternCfg 52 ToneUp 100
+sendcmd 1 DB set VoIPTONEPatternCfg 52 ToneDown 100
+sendcmd 1 DB set VoIPTONEPatternCfg 52 ReptitionCount 8
+sendcmd 1 DB set VoIPTONEPatternCfg 52 Duration 200
+sendcmd 1 DB set VoIPTONEPatternCfg 52 NextEntryID 54
+
+sendcmd 1 DB set VoIPTONEPatternCfg 53 Frequency1 350
+sendcmd 1 DB set VoIPTONEPatternCfg 53 Power1 60
+sendcmd 1 DB set VoIPTONEPatternCfg 53 Frequency2 440
+sendcmd 1 DB set VoIPTONEPatternCfg 53 Power2 60
+sendcmd 1 DB set VoIPTONEPatternCfg 53 ToneUp 30000
+sendcmd 1 DB set VoIPTONEPatternCfg 53 ReptitionCount 1
+sendcmd 1 DB set VoIPTONEPatternCfg 53 Duration 30000
+
+sendcmd 1 DB set VoIPTONEPatternCfg 80 Frequency1 425
+sendcmd 1 DB set VoIPTONEPatternCfg 80 Power1 180
+sendcmd 1 DB set VoIPTONEPatternCfg 80 ToneUp 200
+sendcmd 1 DB set VoIPTONEPatternCfg 80 ToneDown 200
+sendcmd 1 DB set VoIPTONEPatternCfg 80 ReptitionCount 1
+sendcmd 1 DB set VoIPTONEPatternCfg 80 Duration 400
+
+sendcmd 1 DB set VoIPTONEPatternCfg 81 Frequency1 425
+sendcmd 1 DB set VoIPTONEPatternCfg 81 Power1 180
+sendcmd 1 DB set VoIPTONEPatternCfg 81 ToneUp 200
+sendcmd 1 DB set VoIPTONEPatternCfg 81 ToneDown 600
+sendcmd 1 DB set VoIPTONEPatternCfg 81 Duration 800
+
+sendcmd 1 DB save
