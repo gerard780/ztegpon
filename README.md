@@ -1,0 +1,2 @@
+# ztegpon
+ZTE GPON F601 F660 F640 VoIP FTTH FTTX ISP ONU ONT OLT configs and notes
